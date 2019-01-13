@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(64, 80, 141);
+  transition: color 200ms;
+}
+
+.main {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: rgb(64, 80, 141);
+}
+
+.main .main-text {
+  width: 1rem;
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-bottom: 7px;
+}
+
+.main .circle-wrapper {
+  height: 11em;
+  width: 10em;
+  position: relative;
+}
+
+.main .circle-wrapper .circle {
+  width: 10rem;
+  height: 10em;
+  background-color: rgb(255, 67, 0);
+  border-radius: 100%;
+}
+
+.main .circle-wrapper .circle-blur {
+  position: absolute;
+  width: 120%;
+  height: 52%;
+  bottom: 0;
+  left: -1rem;
+  -webkit-backdrop-filter: blur(10px) saturate(80%);
+  backdrop-filter: blur(10px) saturate(80%);
+}
+
+.main .main-button {
+  color: white;
+  background-color: rgb(64, 80, 141);
+  padding: 12px 14px;
+  border-radius: 20px;
+  margin: 10px 0 7px;
+  transition: background-color 200ms;
+}
+
+.main .main-button:hover {
+  background-color: rgb(81, 103, 178);
+}
+
+.main .link:hover {
+  color: rgb(81, 103, 178);
+}

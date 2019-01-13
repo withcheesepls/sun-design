@@ -1,0 +1,20 @@
+{
+  "name": "sun-design",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "node -e 'require(`BrowserRefresh`)();'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/withcheesepls/sun-design.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/withcheesepls/sun-design/issues"
+  },
+  "homepage": "https://github.com/withcheesepls/sun-design#readme"
+}
